@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- img
+- complementary:
+  - list:
+    - listitem:
+      - link:
+        - /url: javascript:void(0)
+        - img
+    - listitem:
+      - link "1":
+        - /url: javascript:void(0)
+        - img
+        - text: "1"
+    - listitem:
+      - link "user17531162795":
+        - /url: javascript:void(0)
+        - img
+        - text: user17531162795
+- banner:
+  - navigation:
+    - list:
+      - listitem:
+        - link:
+          - /url: javascript:void(0)
+          - img
+          - img
+      - listitem:
+        - link "ShoppingCart":
+          - /url: "#/shoppingCart"
+          - img
+          - text: "1"
+        - list:
+          - listitem
+      - listitem:
+        - link "UserMenu":
+          - /url: javascript:void(0)
+          - text: user17531162795
+          - img
+      - listitem:
+        - img
+        - textbox "Search AdvantageOnlineShopping.com"
+        - img
+      - listitem
+      - listitem
+      - listitem
+      - listitem
+    - link "dvantage DEMO":
+      - /url: "#/"
+      - img
+      - text: dvantage DEMO
+- article:
+  - navigation:
+    - link "HOME/":
+      - /url: "#/"
+    - text: SHOPPING CART
+  - heading "SHOPPING CART (1)" [level=3]
+  - table:
+    - rowgroup:
+      - row "PRODUCT NAME COLOR QUANTITY PRICE":
+        - cell
+        - cell "PRODUCT NAME"
+        - cell "COLOR"
+        - cell "QUANTITY"
+        - cell "PRICE"
+    - rowgroup:
+      - row "imgProduct HP PAVILION 15Z TOUCH LAPTOP BLUE 1 $449.99 EDIT | REMOVE":
+        - cell "imgProduct":
+          - img "imgProduct"
+        - cell "HP PAVILION 15Z TOUCH LAPTOP"
+        - cell "BLUE"
+        - cell "1"
+        - cell "$449.99 EDIT | REMOVE":
+          - paragraph: $449.99
+          - link "EDIT":
+            - /url: "#/product/3?color=3683D1&quantity=1&pageState=edit&warranty="
+          - text: "| REMOVE"
+    - rowgroup:
+      - 'row "PAYMENT OPTIONS: TOTAL: $449.99"':
+        - cell "PAYMENT OPTIONS:":
+          - text: "PAYMENT OPTIONS:"
+          - list:
+            - listitem:
+              - img
+            - listitem:
+              - img
+        - 'cell "TOTAL: $449.99"'
+      - row "CHECKOUT ($449.99)":
+        - cell "CHECKOUT ($449.99)":
+          - button "CHECKOUT ($449.99)"
+- contentinfo:
+  - heading "FOLLOW US" [level=3]
+  - link "icon":
+    - /url: " https://www.facebook.com/MicroFocus/"
+    - img "icon"
+  - link "icon":
+    - /url: https://twitter.com/MicroFocus
+    - img "icon"
+  - link "icon":
+    - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+    - img "icon"
+  - text: © Advantage Inc, 2024. Release 3.3
+```
